@@ -1,6 +1,5 @@
 (ns b-chat.core-test
-  (:require [clojure.test :refer :all]
-            [b-chat.core :refer :all]))
+  (:require [clojure.test :refer [deftest is testing]]))
 
 (deftest a-test
   (testing "FIXME, I fail."
